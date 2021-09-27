@@ -1,22 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" href="img/linkedin-favicon.png" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="stylesheet" href="css/style.css" />
         <title>Feed | Linkedin</title>
     </head>
-
     <body>
         <!-- Navbar -->
         <nav class="navbar">
-            <div class="icon"></div>
-            <div class="search"></div>
-            <div class="nav"></div>
+            <div class="inner">
+                <div class="logo">
+                    <img class="logo-img" src="img/linkedin.svg" alt="LinkedIn">
+                </div>
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                    <input class="search-bar" type="text" name="search" id="search" placeholder="Search">
+                </div>
+                <div class="nav">
+                    <a href="">
+                        <li class="nav-item muted-12-400 active"><i class="fas fa-home icon"></i><br/>Home</li>
+                    </a>
+                    <a href="">
+                        
+                        <li class="nav-item muted-12-400"><i class="fas fa-user-friends icon"></i><br/>My Network</li>
+                    </a>
+                    <a href="">
+                        <li class="nav-item muted-12-400"><i class="fas fa-suitcase icon"></i><br/>Jobs</li>
+                    </a>
+                    <a href="">
+                        <li class="nav-item muted-12-400"><i class="fas fa-comment-dots icon"></i><br/>Messaging</li>
+                    </a>
+                    <a href="">
+                        <li class="nav-item muted-12-400"><i class="fas fa-bell icon"></i><br/>Notification</li>
+                    </a>
+                    <a href="">
+                        <li class="nav-item muted-12-400"><img src="img/profile-img.jpg" alt="profile img" class="me-img"><br> Me <i class="fas fa-caret-down"></i></li>
+                    </a>
+                    <a href="">
+                        <li class="nav-item muted-12-400"><i class="fas fa-th icon"></i> <br> Work <i class="fas fa-caret-down"></i></li>
+                    </a>
+                    <a href="">
+                        <li class="nav-item muted-12-400 underline">Try Premiuim for <br> free</li>
+                    </a>
+                </div>
+            </div>
         </nav>
-    </body>
+        <!-- Navbar End -->
 
+        <!-- Main Body -->
+        <main>
+            <section class="main-body d-flex">
+                <section>
+                    <div class="profile-preview">
+                        <img src="img/cover-image.png" alt="cover img" class="cover-img">
+                        <img src="img/profile-img.jpg" alt="profile img" class="profile-img">
+                        <a href=""><p class="profile-name normal-16-600 underline">Sonam Wangdi Sherpa</p></a>
+                        <p class="profile-bio muted-12-400">Intern at EKbana Solutions Pte. Ltd.</p>
+                        <div class="muted-border">
+                            <a href="">
+                                <div class="profile-container">
+                                    <p class="muted-12-600">Connections</p>
+                                    <p class="normal-12-600">Grow your network</p>
+                                    <p class="normal-12-600 profile-count">50</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="profile-container">
+                                    <p class="muted-12-600">Who viewed your profile</p>
+                                    <p class="normal-12-600 profile-count">32</p>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="">
+                            <div class="premium-container">
+                                <p class="muted-12-400">Access exclusive tools & insights</p>
+                                <p class="normal-12-600"><i class="fas fa-square"></i>&nbsp; Try Premium for free</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="item-container">
+                                <p class="normal-12-600"><i class="fas fa-bookmark"></i>&nbsp; My items</p>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="profile-preview sticky">
+                        <div class="container">
+                            <div class="d-flex">
+                                <p class="text-pad muted-12-400 parent">Recent </p></a><i class="fas fa-chevron-down muted hidden"></i>
+                            </div>
+                            <div class="d-flex">
+                                <a href=""><p class="text-pad normal-12-600 blue underline parent">Groups </p></a>
+                            </div>
+                            <div class="d-flex">
+                                <a href=""><p class="text-pad normal-12-600 blue underline parent">Events </p></a><i class="fas fa-plus muted"></i>
+                            </div>
+                            <div class="d-flex">
+                                <a href=""><p class="text-pad normal-12-600 blue underline parent">Followed hashtags </p></a><i class="fas fa-chevron-down muted hidden"></i>
+                            </div>
+                        </div>
+                        <a href="">
+                            <div class="discover-container">
+                                <p class="muted-14-600 text-center">Discover More</p>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </section>
+                <section>
+                    <div class="new-post">
+                        <div class="d-flex">
+                            <a href=""><img src="img/profile-img.jpg" alt="profile img" class="new-post-img"></a>
+                            <div class="new-post-input muted-14-600">Start a post</div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="post-categories pointer">
+                                <p class="muted-14-600 text-pad"><i class="far fa-image"></i>&nbsp;&nbsp;Photo</p>
+                            </div>
+                            <div class="post-categories pointer">
+                                <p class="muted-14-600 text-pad"><i class="fab fa-youtube"></i>&nbsp;&nbsp;Video</p>
+                            </div>
+                            <div class="post-categories pointer">
+                                <p class="muted-14-600 text-pad"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;Event</p> 
+                            </div>
+                            <div class="post-categories pointer">
+                                <p class="muted-14-600 text-pad"><i class="far fa-outdent"></i>&nbsp;&nbsp;Write Article</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="muted-12-600 text-pad">Start a conversation: <span class="convo-link underline">#HispanicHeritageMonth</span>&nbsp;<span class="convo-link underline">#ConversationsForChange</span></p>
+                    </div>
+                    <div class="new-post-hr">
+                        <hr class="sort-hr f-left"><p class="muted-12-400 f-right">Sort by: <span class="normal-12-600 pointer">Top <i class="fas fa-caret-down"></i></span></p>
+                    </div>
+                    <div class="feed">
+                        <div class="d-flex parent">
+                            <a href="">
+                                <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="profile img" class="new-post-img">
+                                <div class="user-info">
+                                    <p class="normal-14-600 underline hover-blue">John Doe</p></a>
+                                    <p class="muted-12-400 pointer">CEO at Doe Co.</p>
+                                    <p class="muted-12-400 pointer">12h &#183; <i class="fas fa-globe-americas"></i></p>
+                                </div>
+                            </a>
+                            <i class="fas fa-ellipsis-h muted-14-600"></i>
+                        </div>
+                        <div class="caption">
+                            <p class="normal-14-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, molestiae mollitia adipisci blanditiis iure, est debitis </p>
+                        </div>
+                        <div class="feed-content">
+                            <img src="img/post1.jpg" alt="" class="feed-content-image">
+                        </div>
+                        <hr>
+                        <div class="feed-actions d-flex">
+                            <div class="action pointer">
+                                <p class="muted-14-600 text-pad"><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;Like</p>
+                            </div>
+                            <div class="action pointer">
+                                <p class="muted-14-600 text-pad"><i class="far fa-comment"></i>&nbsp;&nbsp;Comment</p>
+                            </div>
+                            <div class="action pointer">
+                                <p class="muted-14-600 text-pad"><i class="fal fa-share"></i>&nbsp;&nbsp;Share</p> 
+                            </div>
+                            <div class="action pointer">
+                                <p class="muted-14-600 text-pad"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="d-flex parent">
+                            <a href="">
+                                <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="profile img" class="new-post-img">
+                                <div class="user-info">
+                                    <p class="normal-14-600 underline hover-blue">Jane Doe</p></a>
+                                    <p class="muted-12-400 pointer">CTO at Doe Co.</p>
+                                    <p class="muted-12-400 pointer">22h &#183; <i class="fas fa-globe-americas"></i></p>
+                                </div>
+                            </a>
+                            <i class="fas fa-ellipsis-h muted-14-600"></i>
+                        </div>
+                        <div class="caption">
+                            <p class="normal-14-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, molestiae mollitia adipisci blanditiis iure, est debitis </p>
+                        </div>
+                        <div class="feed-content">
+                            <img src="img/post1.jpg" alt="" class="feed-content-image">
+                        </div>
+                        <hr>
+                        <div class="feed-actions d-flex">
+                            <div class="action pointer">
+                                <p class="muted-14-600 text-pad"><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;Like</p>
+                            </div>
+                            <div class="action pointer">
+                                <p class="muted-14-600 text-pad"><i class="far fa-comment"></i>&nbsp;&nbsp;Comment</p>
+                            </div>
+                            <div class="action pointer">
+                                <p class="muted-14-600 text-pad"><i class="fal fa-share"></i>&nbsp;&nbsp;Share</p> 
+                            </div>
+                            <div class="action pointer">
+                                <p class="muted-14-600 text-pad"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="ad-preview">
+                        <p class="ad normal-16-600 parent">Today's top courses <i class="fas fa-info-circle muted"></i></p>
+                        <div class="courses">
+                            <div class="course" onfocus="visibility()">
+                                <p class="normal-14-600">1. JS Crash Course <i class="fas fa-share-square muted f-right"></i></p>
+                                <p class="muted-12-400">&nbsp;&nbsp;&nbsp;Janina Meissner</p>
+                            </div>
+                            <div class="course">
+                                <p class="normal-14-600">2. Digital Marketing <i class="fas fa-share-square muted f-right"></i></p>
+                                <p class="muted-12-400">&nbsp;&nbsp;&nbsp;Pantaleone Dibra</p>
+                            </div>
+                            <div class="course">
+                                <p class="normal-14-600">3. Build 2D games in Unity <i class="fas fa-share-square muted f-right"></i></p>
+                                <p class="muted-12-400">&nbsp;&nbsp;&nbsp;Attila Franco</p>
+                            </div>
+                        </div>
+                        <p class="muted-14-600 show-more">Show more on LinkedIn Learning <i class="fas fa-arrow-right"></i></p>
+                    </div>
+                    <div class="sticky">
+                        <img src="img/linked.jpg" alt="" class="adv-img">
+                        <div class="footer text-center">
+                            <div class="links">
+                                <a href="" class="muted-12-400 underline link hover-blue">About</a>
+                                <a href="" class="muted-12-400 underline link hover-blue">Accessibility</a>
+                                <a href="" class="muted-12-400 underline link hover-blue">Help Center</a>
+                                <a href="" class="muted-12-400 underline link hover-blue">Privacy & Terms <i class="fas fa-angle-down"></i></a>
+                                <a href="" class="muted-12-400 underline link hover-blue">Ad Choices</a>
+                                <a href="" class="muted-12-400 underline link hover-blue">Advertising</a>
+                                <a href="" class="muted-12-400 underline link hover-blue">Business Services <i class="fas fa-angle-down"></i></a><br>
+                                <a href="" class="muted-12-400 underline link hover-blue">Get the LinkedIn app</a>
+                                <a href="" class="muted-12-400 underline link hover-blue">More</a>
+                            </div>
+                            <div class="copyright d-flex">
+                                <img src="img/linkedin-long.png" alt="LinkedIn" class="linkedin-long">
+                                <p class="normal-12-400">LinkedIn Corporation &copy; 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </body>
 </html>
